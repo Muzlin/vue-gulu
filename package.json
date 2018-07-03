@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Muzlin/vue-gulu#readme",
   "dependencies": {
     "vue": "^2.5.16"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.9.4"
   }
 }
