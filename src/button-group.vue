@@ -4,7 +4,16 @@
   </div>
 </template>
 <script>
-  export default {}
+  export default {
+    mounted(){
+      for (let node of this.$el.children){
+        let name = node.nodeName
+        if(name.toLowerCase() !== 'button'){
+          console.warn(`g-button-group 的子元素必须为button 你出现了一个<${node.nodeName.toLowerCase()}>元素`)
+        }
+      }
+    }
+  }
 </script>
 <style lang="scss">
 .g-button-group{
@@ -22,7 +31,6 @@
     margin-left: -1px;
 
     &:hover{
-      border-color: red;
       z-index: 1;
     }
   }
