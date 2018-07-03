@@ -57,9 +57,9 @@
 </head>
 <body>
 <div id="app">
-  <g-button icon="loading">设置</g-button>
+  <g-button @click="l2 = !l2" :loading="l2">设置</g-button>
   <g-button icon="settings">设置</g-button>
-  <g-button icon="settings" icon-position="right">设置</g-button>
+  <g-button icon="settings" icon-position="right" :loading="defLoading" @click="defLoading = !defLoading">设置</g-button>
 </div>
 <script src="./src/app.js"></script>
 <script src="//at.alicdn.com/t/font_731053_cmlp7oydsea.js"></script>
