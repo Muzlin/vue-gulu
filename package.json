@@ -1,0 +1,19 @@
+{
+  "name": "vue-gulu",
+  "version": "0.0.1",
+  "description": "一个vue的ui组件库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muzlin/vue-gulu.git"
+  },
+  "author": "muzlin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Muzlin/vue-gulu/issues"
+  },
+  "homepage": "https://github.com/Muzlin/vue-gulu#readme"
+}
